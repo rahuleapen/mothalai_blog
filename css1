@@ -104,16 +104,14 @@ body {
       <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
     </div>
     <div class="card">
-      <h3>Popular Post</h3>
+      <h3>Recent Post</h3>
       <div class="fakeimg">Image</div><br>
-      <div class="fakeimg">Image</div><br>
-      <div class="fakeimg">Image</div>
-    </div>
-    <div class="card">
       <h3>Follow Me</h3>
-      <p>Some text..</p>
+      <p>Social media ....</p>
     </div>
   </div>
+    </div>
+    <div class="card">
 </div>
 
 <div class="footer">
