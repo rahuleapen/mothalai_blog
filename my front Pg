@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Mothalai 7</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Entrepreneur/Explorer</h2>
+      <h5>....Loading...</h5>
+      <div class="fakeimg" style="height:460px;"><img src="https://media-exp1.licdn.com/dms/image/C5103AQE_4YXLQe3WRQ/profile-displayphoto-shrink_400_400/0?e=1606953600&v=beta&t=JU1COcS5rtkZEv7LUiCHUAFfihLNZUNs_IgFIxlJN4s" alt="Pro pic"></div>
+      <p>An Engineer, Budding Entrepreneur, Researcher, Amateur Shutterbug and still a student madly in love with electronics,ai and robotics hardware development. </p>
+    </div>
+    <div class="card">
+      <h2>Experiance </h2>
+      <h5>Journey of past 5 years</h5>
+       <p>Chief Operating Officer
+Company NameMartianz Business Solutions Part-time
+Dates EmployedApr 2020 – Present
+Employment Duration7 mos
+LocationKakkanad, Ernakulam, Kerala, India </p>
+<p>Industrus Tech
+Chief Executive Officer
+Company NameIndustrus Tech Full-time
+Dates EmployedSep 2016 – Present
+Employment Duration4 yrs 2 mos
+LocationKottayam, Kerala, India</p>
+<p>singularis software Technologies
+Research Analyst
+Company Namesingularis software Technologies Freelance
+Dates EmployedNov 2018 – Jan 2019
+Employment Duration3 mos
+LocationKottayam, Kerala, India
+I was responsible for researching, analyzing and presenting data related to markets, operations, finance/accounting, economics, customers and other informations. Played a major role in marketing and development of different marketing strategies.</p>
+<p>Startup Bootcamp SJCET
+Developer
+Company NameStartup Bootcamp SJCET
+Dates EmployedJun 2017 – Sep 2018
+Employment Duration1 yr 4 mos</p>
+<p>Internshala
+Education Ambassador
+Company NameInternshala Part-time
+Dates EmployedMay 2017 – Apr 2018
+Employment Duration1 yr
+worked for internshala as marketing lead manager for all India section. was responsible for Developing new marketing strategies and methods for customer satisfaction. Maintaining the quality of service was also checked and reported.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
